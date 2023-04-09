@@ -5,20 +5,120 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon">
+    <title>My landing</title>
+    <!-- <link rel="shortcut icon" href="https://placekitten.com/96/139" type="image/x-icon"> -->
 </head>
 
 <body>
-    <header>
-        <h1>Хабібчик</h1>
+    <header class="header">
+        <nav class="header__nav">
+            <div class="header__menu menu">
+                <a href="#" class="menu__item">Home</a>
+                <a href="#" class="menu__item">Product</a>
+                <a href="#" class="menu__item">Procing</a>
+                <a href="#" class="menu__item">About</a>
+                <a href="#" class="menu__item">Contact</a>
+            </div>
+            <div class="header__social-networks social-networks">
+                <a href="#" class="social-networks-item"><img src="img/twitter.svg" alt="twitter"></a>
+                <a href="#" class="social-networks-item"><img src="img/facebook.svg" alt="facebook"></a>
+                <a href="#" class="social-networks-item"><img src="img/instagram.svg" alt="instagram"></a>
+            </div>
+        </nav>
+        <div class="header__intro intro">
+            <h1 class="intro__title">The best products start with Figma</h1>
+            <p class="intro__subtitle">Most calendars are designed for teams. Slate is designed freelancers</p>
+            <a href="#" class="intro__button main-button">Try For Free</a>
+        </div>
     </header>
     <main>
-        <img src="img/Хабиб.jpg" alt="Хабібчик">
+        <section class="about">
+            <div class="about__initial-text initial-text">
+                <h2 class="initial-text__title">Features</h2>
+                <p class="initial-text__subtitle">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            </div>
+            <div class="about__container">
+                <div class="container__item">
+                    <img src="" alt="">
+                    <h3 class="container__item__title">OpenType features Variable fonts</h3>
+                    <p class="container__item__text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+                <div class="container__item">
+                    <img src="" alt="">
+                    <h3 class="container__item__title">Design with real data</h3>
+                    <p class="container__item__text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+                <div class="container__item">
+                    <img src="" alt="">
+                    <h3 class="container__item__title">Fastest way to take action</h3>
+                    <p class="container__item__text">Slate helps you see how many more days you need to work to reach your financial goal.</p>
+                </div>
+            </div>
+            <img src="img/section-about.svg" alt="">
+        </section>
+        <div class="product">
+            <section class="product__section">
+                <div class="product__initial-text initial-text">
+                    <h2 class="initial-text__title">Fastest way to organize</h2>
+                    <p class="initial-text__subtitle">Most calendars are designed for teams. Slate is designed for freelancers</p>
+                    <a href="#" class="initial-text__button main-button">Try For Free</a>
+                </div>
+                <img src="img/laptop.jpg" alt="laptop">
+            </section>
+            <section class="product__section">
+                <img width="600px" src="img/envelope.jpg" alt="envelope">
+                <div class="product__email-block">
+                    <h3 class="email-block__pre-text">At your fingertips</h3>
+                    <h2 class="email-block__title">Lightning fast prototyping</h2>
+                    <h3 class="email-block__subtitle">Subscribe to our Newsletter</h3>
+                    <p class="email-block__text">Available exclusivery on Figmaland</p>
+                    <form class="product__form" action="">
+                        <input type="email" placeholder="Your Email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <section class="partners">
+            <div class="partners__initial-text initial-text">
+                <h2 class="initial-text__title">Partners</h2>
+                <p class="initial-text__subtitle">Most calendars are designed for teams. Slate is designed for freelancers</p>
+            </div>
+            <div class="partners__collection">
+                <div class="partners_item">
+                    <h5 class="partners_text">Client Name</h5>
+                    <img src="img/google.jpg" alt="google">
+                </div>
+                <div class="partners_item">
+                    <h5 class="partners_text">Client Name</h5>
+                    <img src="img/amazon.jpg" alt="amazon">
+                </div>
+                <div class="partners_item">
+                    <h5 class="partners_text">Client Name</h5>
+                    <img src="img/microsoft.jpg" alt="microsoft">
+                </div>
+                <div class="partners_item">
+                    <h5 class="partners_text">Client Name</h5>
+                    <img src="img/uber.jpg" alt="uber">
+                </div>
+                <div class="partners_item">
+                    <h5 class="partners_text">Client Name</h5>
+                    <img src="img/dropbox.jpg" alt="dropbox">
+                </div>
+                <div class="partners_item">
+                    <h5 class="partners_text">Client Name</h5>
+                    <img src="img/google.jpg" alt="google">
+                </div>
+                <div class="partners_item">
+                    <h5 class="partners_text">Client Name</h5>
+                    <img src="img/amazon.jpg" alt="amazon">
+                </div>
+                <div class="partners_item">
+                    <h5 class="partners_text">Client Name</h5>
+                    <img src="img/microsoft.jpg" alt="microsoft">
+                </div>
+            </div>
+        </section>
     </main>
-    <footer>
-
-    </footer>
 </body>
-
 </html>
