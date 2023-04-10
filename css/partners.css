@@ -1,0 +1,39 @@
+.partners__initial-part {
+    width: 532px;
+    margin: auto;
+}
+
+.initial-part__subtitle {
+    margin-top: 27px;
+    margin-bottom: 92px;
+}
+
+.partners__collection {
+    width: 1075px;
+    margin: auto;
+}
+
+.partners__collection-row {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.partners_item {
+    border: 1px solid #D8D8D8;
+    text-align: center;
+}
+
+.partners_text {
+    margin-top: 31px;
+    margin-bottom: 20px;
+}
+
+.partners_item img {
+    width: 70%;
+    margin-bottom: 12px;
+}
+
+.partners__button {
+    margin-top: 90px;
+    margin-bottom: 200px;
+}

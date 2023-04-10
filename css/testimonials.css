@@ -1,0 +1,28 @@
+.initial-part__image {
+    width: 150px;
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.testimonials__initial-part p {
+    width: 967px;
+    margin: auto;
+}
+
+.testimonials__commentator {
+    display: flex;
+    justify-content: space-between;
+
+    width: 200px;
+    height: 55px;
+    margin: 60px auto 90px auto;
+}
+
+.testimonials__commentary-work {
+    display: block;
+    margin-top: 10px;
+}
+
+.testimonials__button {
+    margin-bottom: 115px;
+}
