@@ -1,0 +1,40 @@
+.about__initial-part {
+    width: 550px;
+    margin: auto;
+    margin-top: 180px;
+}
+
+.about__initial-part h2 {
+    margin-bottom: 25px;
+}
+
+.about__container {
+    width: 870px;
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+    margin: auto;
+    margin-top: 90px;
+}
+
+.container__item {
+    width: 255px;
+    padding: 0 12px;
+}
+
+.container__item__title {
+    margin-top: 27px;
+    margin-bottom: 20px;
+}
+
+.container__item__text {
+    color: var(--subtitle-color);
+    font-size: 18px;
+}
+
+.about img {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}
