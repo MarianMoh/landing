@@ -1,0 +1,118 @@
+.pricing {
+    background-color: var(--title-color);
+}
+
+.pricing__initial-part {
+    width: 540px;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.pricing__initial-part h2 {
+    color: var(--link-color);
+}
+
+.pricing__initial-part p {
+    color: var(--link-color);
+    margin-top: 27px;
+    margin-bottom: 90px;
+}
+
+.pricing__tariffs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 1105px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+.tariffs__item {
+    background-color: var(--intro-color);
+    width: 335px;
+    text-align: center;
+
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+}
+
+.tariffs__item:nth-child(2) {
+    background-color: var(--button-color);
+}
+
+.tariff__title {
+    margin-top: 40px;
+    margin-bottom: 3px;
+}
+
+.tariffs__item:nth-child(2) .tariff__title {
+    color: var(--link-color);
+    margin-top: 90px;
+}
+
+.tariff__subtitle {
+    width: 148px;
+    margin: auto;
+    margin-bottom: 18px;
+}
+
+.tariffs__item:nth-child(2) .tariff__subtitle {
+    color: var(--link-color)
+}
+
+.tariff__price {
+    display: flex;
+    justify-content: center;
+
+    width: 185px;
+    margin: auto;
+}
+
+.price__quantity {
+    font-size: 70px;
+    color: var(--title-color);
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.tariffs__item:nth-child(2) .price__quantity {
+    color: var(--link-color);
+}
+
+.price__currency {
+    text-align-last: left;
+    margin-top: 12px;
+    margin-bottom: 2px;
+}
+
+.tariffs__item:nth-child(2) .price__currency {
+    color: var(--link-color);
+}
+
+.tariffs__item:nth-child(2) .price__duration {
+    color: var(--link-color);
+}
+
+.tarrif__features__item {
+    color: var(--title-color);
+    font-size: 15px;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.tariffs__item:nth-child(2) .tarrif__features__item {
+    color: var(--link-color);
+}
+
+.tariff__button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tariffs__item:nth-child(2) .tariff__button {
+    color: var(--button-color);
+    background-color: var(--link-color);
+    margin-bottom: 100px;
+}
