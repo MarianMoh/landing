@@ -95,14 +95,14 @@
     color: var(--link-color);
 }
 
-.tarrif__features__item {
+.tariff__features__item {
     color: var(--title-color);
     font-size: 15px;
     line-height: 28px;
     margin-bottom: 20px;
 }
 
-.tariffs__item:nth-child(2) .tarrif__features__item {
+.tariffs__item:nth-child(2) .tariff__features__item {
     color: var(--link-color);
 }
 
