@@ -2,8 +2,8 @@
     height: 920px;
     background-image: url("../img/intro.svg");
 
-    background-position: bottom;
     background-size: cover;
+    background-position: 50% 100%;
 }
 
 .header__nav {
@@ -37,6 +37,10 @@
 
 .social-networks__item {
     margin-left: 30px;
+}
+
+.social-networks__item:first-of-type {
+    margin-left: 0;
 }
 
 .header__intro {

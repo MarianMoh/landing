@@ -1,18 +1,17 @@
 .product__section {
     display: flex;
-    width: 1243.3px;
+    width: 1240px;
 
     justify-content: space-between;
-    margin: 280px auto 290px auto;
+    margin: 280px auto;
 }
 
 .product__initial-part {
-    width: 532px;
     text-align: left;
 }
 
 .product__initial-part h2 {
-    width: 400px;
+    margin-right: 120px;
 }
 
 .product__initial-part p {
@@ -50,36 +49,4 @@
 
 .product__form {
     display: flex;
-}
-
-.product__form input {
-    color: #18171D;
-    font-size: 14px;
-    line-height: 16px;
-
-    width: 273px;
-
-    background: #F4F4F4;
-    border: 1px solid #E8E8E8;
-    border-radius: 39px;
-
-    padding: 19px 32px;
-}
-
-.product__form button {
-    display: block;
-    width: 172px;
-
-    color: var(--link-color);
-    background-color: var(--button-color);
-    font-size: 20px;
-    line-height: 20px;
-    border: 0px;
-    border-radius: 35px;
-    
-    text-align: center;
-    letter-spacing: 0.2px;
-
-    padding: 16px 0;
-    margin: auto;
 }
