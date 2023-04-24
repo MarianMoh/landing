@@ -7,8 +7,7 @@
 .footer__container {
     display: flex;
     justify-content: space-between;
-    width: 991px;
-    margin: 120px auto 100px auto;
+    margin: 120px 125px 100px 125px;
 }
 
 .footer__text {

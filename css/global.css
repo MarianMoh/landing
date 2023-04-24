@@ -104,7 +104,7 @@ textarea {
     resize: none;
 }
 
-input::placeholder {
+input::placeholder, textarea::placeholder {
     color: #18171D;
     font-size: 14px;
     line-height: 16px;
@@ -125,6 +125,11 @@ button {
     letter-spacing: 0.2px;
 
     padding: 16px 0;
+    margin: auto;
+}
+
+.container {
+    width: 1240px;
     margin: auto;
 }
 

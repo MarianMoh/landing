@@ -17,6 +17,10 @@
     padding: 0 12px;
 }
 
+.container__item img {
+    width: 80px;
+}
+
 .container__item__title {
     margin-top: 27px;
     margin-bottom: 20px;
@@ -27,8 +31,8 @@
     font-size: 18px;
 }
 
-.about img {
-    display: block;
+.about__img {
+    width: 100%;
     margin: auto;
     margin-top: 50px;
 }

@@ -1,13 +1,12 @@
 .product__section {
     display: flex;
-    width: 1240px;
-
     justify-content: space-between;
     margin: 280px auto;
 }
 
 .product__initial-part {
     text-align: left;
+    margin-left: 0;
 }
 
 .product__initial-part h2 {
@@ -28,6 +27,7 @@
 
 .product__email-block {
     width: 470px;
+    margin-right: 0;
 }
 
 .email-block__pre-text {
