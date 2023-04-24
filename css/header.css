@@ -67,16 +67,39 @@
     margin-top: 100px;
 }
 
-@media (max-width: 1320px) {
-
-}
 
 @media (max-width: 1200px) {
+    .header {
+        height: 800px;
+    }
 
+    .intro__title {
+        margin-top: 110px;
+        padding: 0 20px;
+    }
 }
 
 @media (max-width: 1024px) {
+    .header {
+        height: 750px;
+    }
 
+    .header__nav {
+        padding: 0;
+    }
+
+    .header__intro {
+        width: 100%;
+    }
+
+    .intro__title {
+        margin-top: 70px;
+        padding: 0 80px;
+    }
+
+    .intro__subtitle {
+        font-size: 22px;
+    }
 }
 
 @media (max-width: 767px) {

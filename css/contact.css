@@ -14,7 +14,7 @@
     display: flex;
     flex-direction: column;
 
-    width: 453px;
+    width: 36%;
     background: #FFFFFF;
     border: 1px solid #DDDDDD;
 
@@ -38,6 +38,10 @@
     margin-left: 0;
 }
 
+.contact__info {
+    width: 60%;
+}
+
 .main-info {
     display: flex;
 }
@@ -48,7 +52,11 @@
 }
 
 .main-info__item:first-of-type {
-    width: 300px;
+    width: 40%;
+}
+
+.main-info__item:last-of-type {
+    margin-right: 0;
 }
 
 .main-info__item img {
@@ -67,4 +75,22 @@
 
 .info__social-networks {
     text-align: center;
+}
+
+@media (max-width: 1200px) { 
+    .contact__form {
+        padding: 32px 30px;
+    }
+
+    .contact__form input, .contact__form textarea {
+        margin-top: 30px;
+    }
+
+    .contact__info-image {
+        margin: 50px auto;
+    }
+
+    .contact__initial-part {
+        margin-top: 140px;
+    }
 }

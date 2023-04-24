@@ -3,7 +3,6 @@
 }
 
 .partners__collection {
-    width: 100%;
     padding: 0 80px;
     margin: auto;
 }
@@ -30,5 +29,27 @@
 
 .partners__button {
     margin-top: 90px;
-    margin-bottom: 200px;
+    margin-bottom: 170px;
+}
+
+@media (max-width: 1200px) {
+    .partners__button {
+        margin-top: 90px;
+        margin-bottom: 200px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .partners__initial-part p {
+        margin-bottom: 70px;
+    }
+
+    .partners__collection {
+        padding: 0 10px;
+    }
+
+    .partners__button {
+        margin-top: 70px;
+        margin-bottom: 160px;
+    }
 }

@@ -25,3 +25,19 @@
 .testimonials__button {
     margin-bottom: 115px;
 }
+
+@media (max-width: 1200px) {
+    .testimonials__initial-part {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .testimonials__commentator {
+        margin-bottom: 70px;
+    }
+
+    .testimonials__button {
+        width: 220px;
+    }
+}

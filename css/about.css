@@ -36,3 +36,21 @@
     margin: auto;
     margin-top: 50px;
 }
+
+@media (max-width: 1200px) {
+    .about__initial-part {
+        margin-top: 150px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .about__container {
+        width: 100%;
+        align-items: center;
+    }
+
+    .container__item {
+        width: 31%;
+        padding: 0;
+    }
+}

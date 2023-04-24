@@ -20,14 +20,13 @@
     justify-content: space-between;
     align-items: center;
 
-    width: 100%;
     padding: 0 65px 100px 65px;
     margin: auto; 
 }
 
 .tariffs__item {
+    width: 30%;
     background-color: var(--intro-color);
-    width: 335px;
     text-align: center;
 
     border: 1px solid #DEDEDE;
@@ -68,7 +67,6 @@
 }
 
 .price__quantity {
-    font-size: 70px;
     color: var(--title-color);
     margin-right: 10px;
     margin-bottom: 25px;
@@ -112,4 +110,10 @@
     color: var(--button-color);
     background-color: var(--link-color);
     margin-bottom: 100px;
+}
+
+@media (max-width: 1200px) { 
+    .pricing__tariffs {
+        padding: 0 5px 100px 5px;
+    }
 }

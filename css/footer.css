@@ -13,7 +13,7 @@
 .footer__text {
     display: flex;
     justify-content: space-between;
-    width: 550px;
+    width: 60%;
     text-align: center;
 }
 
@@ -35,7 +35,7 @@
 }
 
 .footer__contacts {
-    width: 280px;
+    width: 25%;
 }
 
 .footer__contacts__item {
@@ -61,4 +61,24 @@
 .footer__social-networks a {
     margin-left: 0;
     margin-right: 30px;
+}
+
+@media (max-width: 1200px) {
+    .footer__container {
+        margin: 120px 60px 100px 60px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .footer__container {
+        margin: 100px 30px 80px 30px;
+    }
+
+    .footer__contacts {
+        width: 32%;
+    }
+
+    .text-block__link {
+        font-size: 14px;
+    }
 }

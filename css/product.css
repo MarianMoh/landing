@@ -50,3 +50,62 @@
 .product__form {
     display: flex;
 }
+
+@media (max-width: 1200px) {
+    .product__section {
+        margin: 200px auto;
+    }
+
+    .product__initial-part p {
+        margin-bottom: 40px;
+    }
+
+    .product__section img {
+        align-self: center;
+        width: 450px;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .product__section {
+        margin: 160px auto;
+    }
+
+    .product__email-block {
+        width: 320px;
+    }
+
+    .product__section img {
+        align-self: center;
+        width: 360px;
+    }
+
+    .product__initial-part p {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .email-block__subtitle {
+        margin-top: 25px;
+    }
+
+    .email-block__pre-text {
+        margin-bottom: 10px;
+    }
+
+    .email-block__text {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .product__form {
+        flex-wrap: wrap;
+        justify-content: start;
+    }
+
+    .product__form button {
+        margin: 0;
+        margin-top: 15px;
+    }
+}

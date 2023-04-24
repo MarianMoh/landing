@@ -20,7 +20,7 @@
 
 h1 {
     color: var(--intro-color);
-    font-size: 74px;
+    font-size: 72px;
     font-weight: 700;
 
     line-height: 84px;
@@ -134,15 +134,54 @@ button {
 }
 
 @media (max-width: 1320px) {
+    .container {
+        width: 1150px;
+    }
 
+    h1 {
+        font-size: 70px;
+    }
 }
 
 @media (max-width: 1200px) {
+    .container {
+        width: 950px;
+    }
 
+    h1 {
+        font-size: 66px;
+    }
 }
 
 @media (max-width: 1024px) {
+    .container {
+        width: 710px;
+    }
 
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    .initial-part__subtitle {
+        font-size: 22px;
+    }
+
+    h3 {
+        font-size: 17px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    .main-button {
+        width: 200px;
+        font-size: 18px;
+    }
 }
 
 @media (max-width: 767px) {
