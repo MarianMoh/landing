@@ -103,7 +103,23 @@
 }
 
 @media (max-width: 767px) {
+    .menu__item {
+        display: none;
+    }
 
+    .intro__title {
+        margin-top: 50px;
+        padding: 0 80px;
+    }
+
+    .header {
+        height: 700px;
+    }
+
+    .intro__subtitle {
+        font-size: 20px;
+        padding: 0 10px;
+    }
 }
 
 @media (max-width: 425px) {

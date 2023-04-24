@@ -117,3 +117,93 @@
         padding: 0 5px 100px 5px;
     }
 }
+
+@media (max-width: 1024px) {
+    .pricing__tariffs {
+        padding: 0 0 100px 0;
+    }
+
+    .tariffs__item {
+        width: 31.5%;
+    }
+
+    .tariffs__item:nth-last-of-type(2) {
+        width: 32%;
+    }
+
+    .tariff__title {
+        margin-top: 30px;
+    }
+
+    .tariffs__item:nth-child(2) .tariff__title {
+        margin-top: 60px;
+    }
+
+    .tariff__subtitle {
+        margin-bottom: 12px;
+    }
+
+    .price__quantity {
+        margin-bottom: 15px;
+    }
+
+    .price__currency {
+        margin-top: 7px;
+        margin-bottom: 0;
+    }
+
+    .tariff__features__item {
+        margin-bottom: 15px;
+    }
+
+    .tariff__button {
+        width: 180px;
+        margin: 36px auto 40px auto;
+    }
+
+    .tariffs__item:nth-child(2) .tariff__button {
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pricing__initial-part p {
+        padding: 0 20px;
+    }
+
+    .pricing__tariffs {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .tariffs__item {
+        width: 52%;
+        margin-bottom: 40px;
+    }
+
+    .tariffs__item:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .tariffs__item:nth-last-of-type(2) {
+        width: 52%;
+    }
+
+    .tariff__title {
+        margin-top: 40px;
+    }
+
+    .price__quantity {
+        font-size: 50px;
+        margin-bottom: 20px;
+    }
+
+    .price__currency {
+        margin-top: 3px;
+    }
+
+    .tariff__features__item {
+        margin-bottom: 20px;
+    }
+}

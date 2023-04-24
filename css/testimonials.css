@@ -41,3 +41,13 @@
         width: 220px;
     }
 }
+
+@media (max-width: 767px) {
+    .initial-part__image {
+        width: 136px;
+    }
+
+    .testimonials__commentator {
+        width: 190px;
+    }
+}

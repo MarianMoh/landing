@@ -160,6 +160,7 @@ button {
 
     h1 {
         font-size: 50px;
+        line-height: 64px;
     }
 
     h2 {
@@ -185,6 +186,33 @@ button {
 }
 
 @media (max-width: 767px) {
+    .container {
+        width: 550px;
+    }
+
+    h1 {
+        font-size: 44px;
+        line-height: 56px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    .initial-part__subtitle {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 600px) {
 
 }
 

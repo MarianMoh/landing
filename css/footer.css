@@ -82,3 +82,38 @@
         font-size: 14px;
     }
 }
+
+@media (max-width: 767px) {
+    .footer__container {
+        flex-wrap: wrap;
+        margin: 100px 20px 80px 20px;
+    }
+
+    .footer__text {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .footer__text-block {
+        width: 33%;
+    }
+
+    .footer__contacts {
+        width: 42%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+        margin: auto;
+        margin-top: 32px;
+    }
+
+    .footer__social-networks {
+        margin-top: 20px;
+    }
+
+    .social-networks__item:last-of-type {
+        margin-right: 0;
+    }
+}

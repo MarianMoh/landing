@@ -53,3 +53,21 @@
         margin-bottom: 160px;
     }
 }
+
+@media (max-width: 767px) {
+    .partners__collection-row {
+        flex-wrap: wrap;
+    }
+
+    .partners_item {
+        max-width: 50%;
+    }
+
+    .partners_item img[src="img/uber.jpg"] {
+        width: 60%;
+    }
+
+    .partners__button {
+        margin-bottom: 130px;
+    }
+}

@@ -109,3 +109,48 @@
         margin-top: 15px;
     }
 }
+
+@media (max-width: 767px) {
+    .product__section {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .product__initial-part {
+        text-align: center;
+    }
+
+    .product__initial-part h2 {
+        margin-right: 0;
+    }
+
+    .initial-part__button {
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .product__section {
+        margin: 140px auto;
+    }
+
+    .product__section img {
+        width: 380px;
+    }
+
+    .product__email-block {
+        text-align: center;
+        margin-top: 40px;
+    }
+
+    .email-block__pre-text {
+        text-align: center;
+    }
+
+    .email-block__subtitle {
+        text-align: center;
+    }
+
+    .product__form {
+        justify-content: center;
+    }
+}
