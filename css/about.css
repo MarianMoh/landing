@@ -76,3 +76,38 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 600px) {
+    .container__item__title {
+        line-height: 20px;
+    }
+
+    .container__item__text {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+    .about__initial-part {
+        margin-top: 80px;
+    }
+
+    .about__container {
+        flex-direction: column;
+        margin-top: 60px;
+        gap: 30px;
+    }
+
+    .container__item {
+        width: 200px;
+    }
+
+    .container__item__title {
+        margin-top: 17px;
+        margin-bottom: 13px;
+    }
+
+    .container__item__text {
+        font-size: 14px;
+    }
+}

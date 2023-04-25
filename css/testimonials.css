@@ -19,6 +19,7 @@
 
 .testimonials__commentary-work {
     display: block;
+    color: var(--title-color);
     margin-top: 10px;
 }
 
@@ -49,5 +50,32 @@
 
     .testimonials__commentator {
         width: 190px;
+    }
+}
+
+@media (max-width: 425px) {
+    .initial-part__image {
+        width: 120px;
+        margin-top: 80px;
+        margin-bottom: 5px;
+    }
+
+    .testimonials__commentator {
+        width: 180px;
+        margin: 42px auto 70px auto;
+    }
+
+    .testimonials__commentary-work {
+        font-size: 14px;
+    }
+
+    .testimonials__button {
+        margin-bottom: 80px;
+    }
+}
+
+@media (max-width: 375px) {
+    .testimonials__initial-part p {
+        font-size: 15px;
     }
 }

@@ -178,7 +178,7 @@
     }
 
     .tariffs__item {
-        width: 52%;
+        width: 300px;
         margin-bottom: 40px;
     }
 
@@ -186,11 +186,15 @@
         margin-bottom: 0;
     }
 
-    .tariffs__item:nth-last-of-type(2) {
-        width: 52%;
+    .tariffs__item:nth-of-type(2) {
+        width: 300px;
     }
 
     .tariff__title {
+        margin-top: 40px;
+    }
+
+    .tariffs__item:nth-of-type(2) .tariff__title {
         margin-top: 40px;
     }
 
@@ -205,5 +209,46 @@
 
     .tariff__features__item {
         margin-bottom: 20px;
+    }
+
+    .tariffs__item:nth-of-type(2) .tariff__button {
+        margin-bottom: 40px;
+    }
+}
+
+
+@media (max-width: 425px) {
+    .pricing__initial-part p {
+        margin-bottom: 60px;;
+    }
+
+    .tariffs__item {
+        width: 270px;
+    }
+
+    .tariffs__item:nth-last-of-type(2) {
+        width: 270px;
+    }
+
+    .tariff__subtitle {
+        margin-bottom: 16px;
+    }
+
+    .price__currency {
+        margin-top: 0;
+    }
+
+    .tariff__features__item {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .tariffs__item {
+        width: 250px;
+    }
+
+    .tariffs__item:nth-last-of-type(2) {
+        width: 250px;
     }
 }

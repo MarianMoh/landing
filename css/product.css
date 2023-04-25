@@ -154,3 +154,29 @@
         justify-content: center;
     }
 }
+
+@media (max-width: 600px) {
+    .product__section img {
+        width: 360px;
+    }
+}
+
+@media (max-width: 425px) {
+    .product__section {
+        margin: 100px auto;
+    }
+
+    .product__section img {
+        width: 300px;
+    }
+
+    .email-block__text {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 375px) {
+    .product__section img {
+        width: 280px;
+    }
+}

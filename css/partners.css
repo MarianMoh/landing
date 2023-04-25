@@ -71,3 +71,22 @@
         margin-bottom: 130px;
     }
 }
+
+@media (max-width: 425px) {
+    .partners__collection {
+        padding: 0;
+    }
+
+    .partners__initial-part p {
+        margin-bottom: 50px;
+    }
+
+    .partners_text {
+        margin-top: 22px;
+        margin-bottom: 17px;
+    }
+
+    .partners__button {
+        margin-bottom: 100px;
+    }
+}
